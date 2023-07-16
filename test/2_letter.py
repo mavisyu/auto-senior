@@ -11,4 +11,5 @@ for x in letter.upper().replace(" ", ""):
         count[x] = 1
     else:
         count[x] += 1
+
 print(sorted(count.items()))
